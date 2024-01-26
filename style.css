@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--white);
+    background-color: var(--gray);
     font-family: var(--font);
 }
 
