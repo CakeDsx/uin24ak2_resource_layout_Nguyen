@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+    --blue: #2A324B;
+    --grey: #58699D;
+    --gray: #E1E5EE;
+    --white: #FFFFFF;
+
+    --font: 'Montserrat', sans-serif;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--white);
+    font-family: var(--font);
+}
+
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    background-color: var(--white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* tenkte det så litt bra ut med skygge */
+    padding-bottom: 10%;
+}
+
+#categoryNav {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#categoryNav a {
+    text-decoration: none;
+    color: var(--white); 
+    font-weight: bold;
+    padding: 15px 52px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: var(--blue);
+}
+
+#categoryNav a.active {
+    background-color: var(--white); 
+    color: var(--blue); 
+}
+
+#resourcesContainer {
+    padding: 20px;
+    width: 800px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: var(--blue);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+
+.sourcesList {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.sourcesList li {
+    margin-bottom: 5px;
+}
+
+li{
+    padding-left: 5%;
+}
